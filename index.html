@@ -1,201 +1,318 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-<meta charset="utf-8" />
-<title>Intro to HTML and CSS</title>
-<style>
-body {
-	background: #CBBB98;
-	margin: 0;
-	padding: 0;
-	font-family: 'Helvetica','Arial';
-}
-#wrapper {
-	width: 960px;
-	height: auto;
-	background: #DAD5C1;
-	border-left: 5px solid #A09885;
-	border-right: 5px solid #A09885;
-	overflow: auto;
-	margin: 0 auto;
-	padding: 10px;
-}
-#header {
-	width: 100%;
-	height: 100px;
-	border-bottom: 3px dotted #7C7063;
-}
-#logo {
-	float: left;
-	margin: 15px 0px 0px 80px;
-}
-#social {
-	float: right;
-	margin: 20px 30px 0px 0px;
-}
-#social ul li {
-	float: left;
-	padding-right: 5px;
-	list-style: none;
-}
-#social img {
-	height: 55px;
-	width: 55px;
-}
-#sidebar {
-	float: left;
-	width: 275px;
-	height: 100%;
-}
-#menu ul {
-	float: left;
-	height: auto;
-	width: 200px;
-}
-#menu ul li {
-	list-style: none;
-	padding: 5px;
-	text-align: center;
-}
-#menu ul li a {
-	background: #CBBB9B;
-	color: #4E4F3E;
-	text-decoration: none;
-	padding: 10px 0px;
-	display: block;
-	border-radius: 10px;
-	border: 1px solid #4E4F3E;
-}
-#menu ul li a:hover {
-	color: #FFF;
-}
-#content {
-	float: left;
-	width: 655px;
-	height: 100%;
-	padding-left: 15px;
-	letter-spacing: 1;
-	color: #57574C;
-	border-left: 3px solid #7C7063;
-}
-h1 {
-	text-align: center;
-	padding: 5px;
-	border-bottom: 1px solid #7C7063;
-}
-p {
-	text-indent: 50px;
-	line-height: 25px;
-	text-align: justify;
-	
-}
-img {
-	float: right;
-	padding: 0px 0px 5px 5px;
-}
-.top a {
-	color: #4E4F3E;
-}
-#table {
-	margin: 0px 0px 30px 175px;
-}
-table {
-	border: 1px solid black;
-}
-th {
-	border: 1px solid black;
-}
-iframe {
-	margin-left: 55px;
-	border: 0px;
-}
-#footer {
-	clear: both;
-	width: 100%;
-	height: 80px;
-	color: #7C7063;
-	border-top: 1px solid #7C7063;
-}
-h5 {
-	text-align: center;
-}
-</style>
-</head>
-
-<body>
-
-<div id='wrapper'>
-	<div id='header'>
-		<a id='top'></a>
-		<div id='logo'>
-			<img src='https://www.w3newbie.com/wp-content/uploads/boxer_logo.png' width='350' height='80' alt='logo' title='boxer dogs'/>
-		</div><!--end of logo-->
-		<div id='social'>
-			<ul>
-				<li><a href='http://www.facebook.com' target='blank'><img src='https://www.w3newbie.com/wp-content/uploads/facebook.png' alt='facebook' title='facebook'/></a></li>
-				<li><a href='http://www.twitter.com' target='blank'><img src='https://www.w3newbie.com/wp-content/uploads/twitter.png' alt='twitter' title='twitter'/></a></li>
-				<li><a href='http://www.youtube.com' target='blank'><img src='https://www.w3newbie.com/wp-content/uploads/youtube.png' alt='youtube' title='youtube'/></a></li>
-				<li><a href='http://www.plus.google.com' target='blank'><img src='https://www.w3newbie.com/wp-content/uploads/google_plus.png' alt='google plus' title='google plus'/></a></li>
-				<li><a href='http://www.w3newbie.com' target='blank'><img src='https://www.w3newbie.com/wp-content/uploads/w3_icon.png' alt='w3newbie' title='w3newbie'/></a></li>
-			</ul>
-		</div><!--end of social-->
-	</div><!--end of header-->
-	<div id='sidebar'>
-		<div id='menu'>
-			<ul>
-				<li><h2><a href='#intro'>Intro</a></h2></li>
-				<li><h2><a href='#size'>Size</a></h2></li>
-				<li><h2><a href='#food'>Food</a></h2></li>
-				<li><h2><a href='#play'>Play</a></h2></li>
-			</ul>
-		</div><!--end of menu-->
-	</div><!--end of sidebar-->
-	<div id='content'>
-		<a id='intro'><h1>My boxer dog</h1></a>
-			<img src='https://www.w3newbie.com/wp-content/uploads/boxer1.png' width='400' height='250' alt='Boxer dog' title='Boxer dog'/>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. Aenean ornare mi non nibh vulputate, quis ultricies lorem bibendum. Curabitur id eros luctus, consectetur sem et, lobortis tortor. Sed pharetra metus ut velit facilisis, non sollicitudin mauris sagittis. Quisque at ex sagittis, viverra ante vitae, placerat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. Aenean ornare mi non nibh vulputate, quis ultricies lorem bibendum. Curabitur id eros luctus, consectetur sem et, lobortis tortor. Sed pharetra metus ut velit facilisis, non sollicitudin mauris sagittis. Quisque at ex sagittis, viverra ante vitae, placerat tellus.</p>
-			<div class='top'><h4><a href='#top'>Go to the top</a></h4></div>
-		<a id='size'><h1>Size</h1></a>
-			<img src='https://www.w3newbie.com/wp-content/uploads/boxer2.png' width='350' height='200' alt='Boxer dog' title='Boxer dog'/>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. Aenean ornare mi non nibh vulputate, quis ultricies lorem bibendum. Curabitur id eros luctus, consectetur sem et, lobortis tortor. Sed pharetra metus ut velit facilisis, non sollicitudin mauris sagittis. Quisque at ex sagittis, viverra ante vitae, placerat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. Aenean ornare mi non nibh vulputate, quis ultricies lorem bibendum. Curabitur id eros luctus, consectetur sem et, lobortis tortor. Sed pharetra metus ut velit facilisis, non sollicitudin mauris sagittis. Quisque at ex sagittis, viverra ante vitae, placerat tellus.</p>		
-			<div class='top'><h4><a href='#top'>Go to the top</a></h4></div>
-		<a id='play'><h1>Play</h1></a>
-			<img src='https://www.w3newbie.com/wp-content/uploads/boxer3.png' width='430' height='260' alt='Boxer dog' title='Boxer dog'/>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. Aenean ornare mi non nibh vulputate, quis ultricies lorem bibendum. Curabitur id eros luctus, consectetur sem et, lobortis tortor. Sed pharetra metus ut velit facilisis, non sollicitudin mauris sagittis. Quisque at ex sagittis, viverra ante vitae, placerat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. Aenean ornare mi non nibh vulputate, quis ultricies lorem bibendum. Curabitur id eros luctus, consectetur sem et, lobortis tortor. Sed pharetra metus ut velit facilisis, non sollicitudin mauris sagittis. Quisque at ex sagittis, viverra ante vitae, placerat tellus.</p>
-			<div class='top'><h4><a href='#top'>Go to the top</a></h4></div>		
-		<a id='food'><h1>Food</h1></a>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et diam ex. Maecenas pretium malesuada rhoncus. Phasellus euismod pellentesque leo, vestibulum feugiat enim consequat eget. Cras sollicitudin at ex vitae finibus. Aliquam erat volutpat. Ut quis ante ante. Donec magna elit, dignissim quis ultricies non, ultricies quis leo. Curabitur volutpat aliquet ultricies. Vestibulum id auctor magna. </p>
-			
-			<div id='table'>
-				<table>
-					<tr>
-						<th>--------</th>
-						<th>Meal 1</th>
-						<th>Meal 2</th>
-						<th>Meal 3</th>
-					</tr>
-					<tr>
-						<th>Food</th>
-						<th>Wet</th>
-						<th>Dry</th>
-						<th>Bacon</th>
-					</tr>
-					<tr>
-						<th>Amount</th>
-						<th>5 oz</th>
-						<th>9lbs</th>
-						<th>334</th>
-					</tr>
-				</table>
-			</div><!--end of table-->
-			
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/eQQi7eZEje4" allowfullscreen></iframe>
-			<div class='top'><h4><a href='#top'>Go to the top</a></h4></div>					
-	</div><!--end of content-->
-	<div id='footer'>
-		<h5>2017 Wójcikiewicz Daniel <a href='mailto:wojcikiewiczdaniel@gmail.com?subject=First_projects'>Send me an email</a></h5>
-	</div><!--end of footer-->
-</div><!--end of wrapper-->
-
-</body>
+<html lang='en'>                                               
+	<head>
+		<title>Bullsy</title>
+		<meta charset='utf-8'/>
+		<meta name='keywords' content='PDS to HTML, E-Commerce PSD to HTML, PSD, HTML, psd to html'>
+		<meta name='description' content='Bullsy is an E-Commerce based website'>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link type='text/css' rel='stylesheet' href='css/style.css'>
+		<link type='text/css' rel='stylesheet' href='css/normalize.css'>
+		<link type='text/css' rel='stylesheet' href='css/main.css'>
+		<script src='js/modernizr.min.js'></script>
+	</head>
+	<body>
+		<!-- Top Start -->
+		<div class='topbar_wrapper container-fluid fix'>
+			<div class='topbar container'>
+				<div class='contact'>
+					<div class='phone pull-left'>
+						<p>
+							<img src='images/mobile_icon.png' alt='phone'>
+							<span>+123456789</span>
+						</p>
+					</div>
+					<div class='email pull-left'>
+						<p>
+							<img src='images/email_icon.png' alt='phone'>
+							<span>uczesiekodowac@gmail.com</span>
+						</p>
+					</div>
+					<div class='top_menu pull-right'>
+						<ul>
+							<li><a href='#'>MY ACCOUNT</a></li>
+							<li><a href='#'>LOGIN</a></li>
+							<li><a href='#'>CHECKOUT</a></li>
+							<li><a href='#'>SIGN UP</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header Start -->
+		<div class='header_wrapper container-fluid fix'>
+			<div class='header container'>
+				<div class='logo pull-left'>
+					<div class='logo_text pull-left'>
+						<h1>BULLSY</h1>
+						<p>RUGGED SHOES STORE<p>
+					</div>
+					<div class='logo_icon pull-left'>
+						<img src='images/logo_icon.png' alt='Logo'>
+					</div>
+				</div>
+				<div class='navigation pull-left'>
+					<ul>
+						<li><a href='#'>HOME</a></li>
+						<li class='slash'>/</li>
+						<li><a href='#'>APPAREL</a></li>
+						<li class='slash'>/</li>
+						<li><a href='#'>FASHION</a></li>
+						<li class='slash'>/</li>
+						<li><a href='#'>CONTACT US</a></li>
+					</ul>
+				</div>
+				<div class='cart pull-right'>
+					<div class='cart_text pull-left'>
+						<p>10 items</p>
+						<h4>$459.99</h4>
+					</div>
+					<div class='cart_icon pull-left'>
+						<img src='images/cart_icon.png' alt='cart'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Slider Start -->
+		<div class='slider_wrapper container-fluid fix'>
+			<div class='slider container'>
+				<div class='slider_back'>
+					<img src='images/main_image.png' alt='main image'>
+					<div class='slider_text'>
+						<ul>
+							<li><a href='#'>SHOES</a></li>
+							<li><a href='#'>SNICKERS</a></li>
+							<li><a href='#'>BOOTS</a></li>
+							<li><a href='#'>RUGGEDNESS</a></li>
+						</ul>
+					</div>
+					<div class='slider_images'>
+						<img src='images/main_transparent.png' alt='transparent'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Services Start -->
+		<div class='services_wrapper container-fluid fix'>
+			<div class='services container'>
+				<div class='service pull-left'>
+					<h1>FREE SHIPPING</h1>
+					<p>- on all orders above <a href='#'>$99</a></p>
+				</div>
+				<div class='service pull-left'>
+					<h1>NEW SHOES COLLECTION</h1>
+					<p>- brand new collections of <a href='#'>Bulls Shoes</a></p>
+				</div>
+				<div class='service pull-left'>
+					<h1>MONEY BACK GUARANTEE</h1>
+					<p>- return policy on all orders in <a href='#'>14 days</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio One Start -->
+		<div class='portfolio_one_wrapper container-fluid fix'>
+			<div class='portfolio_one container'>
+				<div class='heading_one'>
+					<h1>OUR SHOE CATEGORIES</h1>
+					<img src='images/thin_icon.png' alt='heading'>
+				</div>
+				<div class='one_wrapper pull-left'>
+					<img src='images/sc1.png' alt='Portfolio'>
+					<div class='one'>
+						<h1>SNICKERS</h1>
+						<p>Lorem ipsum dolor sit amet, consecte at justo eget lorem port titor tincid ipsum lor.</p>
+						<p><a href='#'>View the category</a>
+					</div>
+				</div>
+				<div class='one_wrapper pull-left'>
+					<img src='images/sc2.png' alt='Portfolio'>
+					<div class='one'>
+						<h1>RUNNING SHOES</h1>
+						<p>Lorem ipsum dolor sit amet, consecte at justo eget lorem port titor tincid ipsum lor.</p>
+						<p><a href='#'>View the category</a>
+					</div>
+				</div>
+				<div class='one_wrapper pull-left'>
+					<img src='images/sc3.png' alt='Portfolio'>
+					<div class='one'>
+						<h1>MOUNTAIN SHOES</h1>
+						<p>Lorem ipsum dolor sit amet, consecte at justo eget lorem port titor tincid ipsum lor.</p>
+						<p><a href='#'>View the category</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Two Start -->
+		<div class='portfolio_two_wrapper container-fluid fix'>
+			<div class='portfolio_two container'>
+				<div class='heading_two'>
+					<h1>OUR LATEST ARRIVALS</h1>
+					<img src='images/thin_icon.png' alt='heading'>
+				</div>
+				<div class='two_wrapper pull-left'>
+					<img src='images/image1.png' alt='Portfolio'>
+					<div class='two'>
+						<p>Bullsy Shoes in white</p>
+						<p>$159.99</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+				<div class='two_wrapper pull-left'>
+					<img src='images/image2.png' alt='Portfolio'>
+					<div class='two'>
+						<p>Rough Bullsy Shoes for Winter</p>
+						<p>$329.49</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+				<div class='two_wrapper pull-left'>
+					<img src='images/image3.png' alt='Portfolio'>
+					<div class='two'>
+						<p>Bullsy Snickers</p>
+						<p>$52.99</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+				<div class='two_wrapper pull-left'>
+					<img src='images/image4.png' alt='Portfolio'>
+					<div class='two'>
+						<p>Bullsy grey Snickers / Shoes</p>
+						<p>$79.49</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Portfolio Three Start -->
+		<div class='portfolio_three_wrapper container-fluid fix'>
+			<div class='portfolio_three container'>
+				<div class='heading_one'>
+					<h1>FEATURED PRODUCTS</h1>
+					<img src='images/thin_icon.png' alt='heading'>
+				</div>
+				<div class='three_wrapper pull-left'>
+					<img src='images/image5.png' alt='Portfolio'>
+					<div class='three'>
+						<p>Bullsy Shoes in white</p>
+						<p>$159.99</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+				<div class='three_wrapper pull-left'>
+					<img src='images/image6.png' alt='Portfolio'>
+					<div class='three'>
+						<p>Rough Bullsy Shoes for Winter</p>
+						<p>$329.49</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+				<div class='three_wrapper pull-left'>
+					<img src='images/image7.png' alt='Portfolio'>
+					<div class='three'>
+						<p>Bullsy Snickers</p>
+						<p>$52.99</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+				<div class='three_wrapper pull-left'>
+					<img src='images/image8.png' alt='Portfolio'>
+					<div class='three'>
+						<p>Bullsy grey Snickers / Shoes</p>
+						<p>$79.49</p>
+						<p><a href='#'>ADD TO CART</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Blog Start -->
+		<div class='blog_wrapper fix'>
+			<div class='blog container'>
+				<div class='heading_two'>
+					<h1>LATEST FROM THE BLOG</h1>
+					<img src='images/thin_icon.png' alt='heading'>
+				</div>
+				<div class='four_wrapper pull-left'>
+					<img src='images/image9.png' alt='Blog'>
+					<div class='four'>
+						<h4>Extra rugged flip-flops will arrive soon</h4>
+						<p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip as consectuni. Lor ipsum dolor sit amet, consec adi pis elit, sed diam nonumm nibh euised tincidunt.</p>
+						<p><a href='#'>Read more</a>
+					</div>
+				</div>
+				<div class='four_wrapper pull-left'>
+					<img src='images/image10.png' alt='Blog'>
+					<div class='four'>
+						<h4>New models of Bullsy Snickers just arrived</h4>
+						<p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip as consectuni. Lor ipsum dolor sit amet, consec adi pis elit, sed diam nonumm nibh euised tincidunt.</p>
+						<p><a href='#'>Read more</a>
+					</div>
+				</div>
+				<div class='four_wrapper pull-left'>
+					<img src='images/image11.png' alt='Blog'>
+					<div class='four'>
+						<h4>Extra rugged flip-flops will arrive soon</h4>
+						<p>Lorem ipsum dolor sit amet, coct adipiscing elit, ip as consectuni. Lor ipsum dolor sit amet, consec adi pis elit, sed diam nonumm nibh euised tincidunt.</p>
+						<p><a href='#'>Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer Top Start -->
+		<div class='footer_top_wrapper container-fluid fix'>
+			<div class='footer_top container'>
+				<h1 class='text-center'>BULLSY - A RUGGED STORE FOR RUGGED PEOPLE</h1>
+				<p class='text-center'>- read more about our store regulations and policy <a href='#'>here.</a> Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+		<!-- Footer Middle Start -->
+		<div class='footer_middle_wrapper container-fluid fix'>
+			<div class='footer_middle container'>
+					<div class='f_logo'>
+					<div class='f_logo_text'>
+						<h1>BULLSY</h1>
+						<p>RUGGED SHOES STORE<p>
+					</div>
+					<div class='f_logo_icon'>
+						<img src='images/f_logo_icon.png' alt='Logo'>
+					</div>
+				</div>
+				<div class='f_navigation'>
+					<ul>
+						<li><a href='#'>HOME</a></li>
+						<li class='slash'>/</li>
+						<li><a href='#'>APPAREL</a></li>
+						<li class='slash'>/</li>
+						<li><a href='#'>FASHION</a></li>
+						<li class='slash'>/</li>
+						<li><a href='#'>CONTACT US</a></li>
+					</ul>
+					<p>© 2013 copyright PREMIUMCODING // All rights reserved</p>
+				</div>
+				<div class='top_icon'>
+					<img src='images/arrow_icon.png' alt='Top Icon'>
+				</div>
+			</div>
+		</div>
+		<!-- Footer Bottom Start -->
+		<div class='footer_bottom_wrapper container-fluid fix'>
+			<div class='footer_bottom container'>
+				<div class='social'>
+					<ul>
+						<li><a href='#'><img src='images/wifi_icon.png' alt='Social'></a></li>
+						<li><a href='#'><img src='images/dots_icon.png' alt='Social'></a></li>
+						<li><a href='#'><img src='images/facebook_icon.png' alt='Social'></a></li>
+						<li><a href='#'><img src='images/twitter_icon.png' alt='Social'></a></li>
+						<li><a href='#'><img src='images/ball_icon.png' alt='Social'></a></li>
+					</ul>
+				</div>
+				<div class='copyright'>
+					<p>Designed by <a href='#'>PremiumCoding.com</a> Web Design</p>
+				</div>
+			</div>
+		</div>
+		<script src='js/jquery.min.js'></script>
+		<script src='js/plugins.js'></script>
+		<script src='js/main.js'></script>
+	</body>
 </html>
